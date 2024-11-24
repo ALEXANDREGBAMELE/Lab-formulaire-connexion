@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    form{
+        margin: auto;
+        padding: 20px 50px 20px 50px;
+        border-radius: 5px;
+        background-color: white;
+        width: 30%;
+
+        div {
+            margin-bottom: 15px;
+        }
+
+                .form-group {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .sign-button{
+                    width: 100%;
+                    margin-bottom: 50px;
+                    background-color: black;
+                    color: white;
+                    font-weight: bold;
+                }
+                .sign-other-count{
+                    h2 {
+                            text-align: center;
+                           
+                           
+                        }
+                    .sign-other-count-group {
+                           
+                    
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                    
+                            button {
+                                width: 45%
+                            }
+                        }
+                }
+
+        .not-remenber{
+            text-align: center;
+        }
+                
+    }
+
+    
+}
+
+button , input {
+    padding: 6px;
+    border-radius: 5px;
+}
